@@ -4,28 +4,124 @@ body {
     font-style: normal; 
     text-align: center;
     margin: 0;
-    background-color: yellow;
-
-}
-h1 {
-    font-size: 5rem;
-    color: rgb(109, 27, 109)
-  }
-
-h2 {
-    font-size: 80px;
-    color: rgb(109, 27, 109)
+    background-color: purple;
 }
 
-p {
-    font-size: 2.5rem;
-    color: blueviolet;
+header, section, li, p {
+    border: 6px solid purple;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 20px;
+    background-color: purple;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: purple;
+    color: purple;
+    border-radius: 15px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    font-size: 3rem;
+    text-align: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: aqua;
+}
+
+section p {
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+.work-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.work-gallery a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: purple;
+    border: 5px solid purple;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.work-gallery img {
+    width: 100%;
+    max-width: 300%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.work-gallery a:first-child img {
+    max-width:  500px;
+}
+
+.work-gallery img:hover {
+    transform: scale(1.05);
+
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }    
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 3.5rem;
     
-h3 {
-    font-size: 50px;
-}
+    }
 
-ul {
-    font-size: 25px;
-}
+    ul {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    .work-gallery img {
+        max-width: 100%;
+    }
+
+    .work-gallery a:first-child img {
+        max-width: 100%;
+    }
+}   
