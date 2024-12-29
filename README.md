@@ -8,7 +8,6 @@ Welcome to my portfolio! This site showcases my journey as an aspiring junior we
 - [Projects](#projects)
 - [Technologies Used](#technologies-used)
 - [Contact Information](#contact-information)
-- [Live Demo](#live-demo)
 
 ## About Me
 
