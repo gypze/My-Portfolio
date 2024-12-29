@@ -17,6 +17,14 @@ Through various self-driven projects and coursework, I am honing my ability to c
 
 My goal is to leverage my growing knowledge and skills to contribute to impactful projects and further develop as a proficient software developer.
 
+## Screenshot of Gypze's Porfolio
+
+![Screenshot 2024-12-28 184540](https://github.com/user-attachments/assets/c198f54e-381c-44d0-a067-44db78fda5dc)
+
+![Screenshot 2024-12-28 184548](https://github.com/user-attachments/assets/2edb3017-9e53-47f3-a2cd-d5b7523b9024)
+
+
+
 ## Projects
 
 ### [Gypze's Tech Blog](https://gypzes-tech-blog.onrender.com)
