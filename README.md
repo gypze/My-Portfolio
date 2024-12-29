@@ -50,11 +50,6 @@ Feel free to reach out to me through any of the following methods:
 - **GitHub**: [Gypzeb's GitHub](https://github.com/gypze)
 - **LinkedIn**: [Gypze's LinkedIn](https://linkedin.com/in/gypze)
 
-## Live Demo
-
-You can view the live version of my portfolio at the following link:
-
-- [Portfolio Live Demo](https://gypzes-tech-blog.onrender.com)
 
 
 
